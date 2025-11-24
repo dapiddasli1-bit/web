@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Products - Showcase Terbaik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">PerfectProducts</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Selamat Datang di Perfect Products</h2>
+            <p>Kami menyediakan produk digital terbaik untuk kebutuhanmu. Dari template website hingga tools kreatif.</p>
+            <button class="cta-button" onclick="scrollToSection('products')">Lihat Produk</button>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Produk Kami</h2>
+        <div class="products-grid">
+            <div class="product-card" onclick="openProduct('1')">
+                <img src="https://via.placeholder.com/300x200?text=Produk+1" alt="Produk 1">
+                <h3>Template Website Modern</h3>
+                <p>Template responsif untuk bisnis online. Hanya Rp 99.000.</p>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="product-card" onclick="openProduct('2')">
+                <img src="https://via.placeholder.com/300x200?text=Produk+2" alt="Produk 2">
+                <h3>Tools Desain Grafis</h3>
+                <p>Kit lengkap untuk desainer pemula. Hanya Rp 149.000.</p>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="product-card" onclick="openProduct('3')">
+                <img src="https://via.placeholder.com/300x200?text=Produk+3" alt="Produk 3">
+                <h3>E-book Panduan Bisnis</h3>
+                <p>Strategi sukses untuk startup. Hanya Rp 79.000.</p>
+                <button>Beli Sekarang</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah tim kreatif yang passionate dengan produk digital berkualitas tinggi. Sudah membantu ribuan pengguna sejak 2020.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Hubungi Kami</h2>
+        <form>
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Perfect Products. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
